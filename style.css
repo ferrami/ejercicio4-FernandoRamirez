@@ -1,22 +1,25 @@
-.menu {
-    background-color: #D6AFDC;
-    width: 80%;
-}
-
 ul {
     list-style-type: none;
+    background-color: #D6AFDC;
+    width: 80%;
+    position: absolute;
+    margin: 20px;
     padding: 20px;
 }
 
 li {
     margin: 20px;
-    display: inline;
+    margin-left: 0;
+    float: left;
+    font-size: 20px;
 }
 
 a {
     text-decoration: none;
     color: white;
     text-align: center;
+    padding: 20px;
+    font-weight: bold;
 }
 
 a:hover {
